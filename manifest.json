@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Box Secure Transfer",
+    "version": "0.2.0",
+    "description": "Securely transfer files to any user of your choice",
+    "icons": {
+        "128": "img/box_cyan_128.png"
+    },
+    "minimum_chrome_version": "37",
+    "permissions": [
+        {"fileSystem": ["write"]},
+        "identity",
+        "notifications",
+        "storage",
+        "https://*.box.com/*",
+        "https://*.boxcdn.com/*",
+        "https://*.boxcdn.net/*",
+        "https://*.boxcloud.com/*",
+        "https://fonts.googleapis.com/*"
+    ],
+    "app": {
+        "background": {
+            "scripts": [
+                "scripts/main.js"
+            ]
+        }
+    }
+}

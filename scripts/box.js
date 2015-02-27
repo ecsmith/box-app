@@ -267,6 +267,15 @@
             };
         }]);
 
+    box.directive('boxUserInfo', ['boxSdk', function(boxSdk) {
+        return {
+            // link: function(scope, element) {
+            //     angular.element(element[0].querySelector('.image-preview')).empty().append(scope.image);
+            // },
+            template: 'HI'
+        };
+    }]);
+
     box.directive('boxImagePreview', function() {
         return {
             link: function(scope, element) {

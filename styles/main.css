@@ -16,12 +16,16 @@
     color: rgba(0,0,0,0.2);
 }     
 .directoryMarker {
-    color: rgba(0,0,0,.1);
+    /*color: rgba(0,0,0,.1)*/
+    text-shadow: 0 0 0.5px rgba(255,255,255,0.1);
+    background: radial-gradient(transparent, rgba(0,0,0,.3));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
     margin: 0 1em;
     text-transform: uppercase;
     display: inline-block;
-    transform : scale(3.5,3.6);
-    -webkit-transform:scale(3.5,3.6);
+    transform : scale(2.5,3);
+    -webkit-transform:scale(2.5,3);
 }
 .item-view-body {
     height: 95%;
@@ -30,8 +34,7 @@
 .item-view-footer {
     position: absolute;
     bottom: 0;
-/*    background: rgba(225, 225, 225, 0.5);
-*/}
+}
 
 .box-item-thumbnail {
     display: inline-block;
@@ -69,11 +72,9 @@
     padding: 0.2em;
 }
 
-.box-breadcrumb {
-    cursor: pointer;
-}
 .box-breadcrumb-parent,
 .box-breadcrumb-leaf {
+    cursor: pointer;
     -webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
@@ -81,13 +82,15 @@
 }
 .box-breadcrumb-parent:hover,
 .box-breadcrumb-leaf:hover {
-    color: rgba(255,255,255,.5);
+    color: rgba(0,0,0,.9);
+    text-shadow: 0 0 0.5px rgba(255,255,255,0.1);
     cursor: pointer;
     box-shadow: 
     0px 0px 5px 1px rgba(0,0,0,.03),
     inset 0px 0px 5px 1px rgba(0,0,0,.03); 
 }
 .box-file-info {
+    text-align: center;
     padding: 0.5em;
     display: inline-block;
 }

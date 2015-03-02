@@ -1,7 +1,18 @@
-Box for Chrome App
+Box Secure Transfer for Chrome App
 ==================
 
-An example packaged app showing how to use the SDK in an application.
+This is my submission for the ASE Exercise. My solution involved writing an extension of a sample chrome app written by box employees for exercising the Box Javascript SDK. The link to the sample chrome app–written by [Jeff Meadows] (https://github.com/Jeff-Meadows) can be found at the link below:  https://github.com/box/Chrome-App-SDK/tree/master/demo/box_app
+
+####I chose to work with a Chrome App for a few reasons:
+
+At the beginning of this exercise I flip-flopped between wanting to create a desktop application or a web application–What would be best for the user, what would accesible to the largest audience? As opposed to an app that runs natively on a particular operating system, you immediately make your app available to a much wider audience by writing a [Chrome App](https://developer.chrome.com/apps/about_apps). Chrome Apps are written using a javascript framework called [Angular.js](https://angularjs.org/) and therefore have the native look and feel of web application that many people feel comfortable using.
+
+####My goals for the exercise included:
+
+* Create a high fidelity prototype of a real application.
+* Create a good user experience.
+* Use the box-SDK to fill my prototype with real data.
+
 
 The example showcases the following SDK features:
 * File upload and download

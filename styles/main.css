@@ -118,6 +118,55 @@ body{
     background-color: transparent;
     border-color: rgba(0, 0, 0,0.075);
 }
+
+.btn-primary .ttip{
+
+    display: none;
+    white-space: normal;
+    visibility: hidden;
+    text-align: right;
+     padding:14px 20px;
+     margin-top: 48px;
+     margin-left: -150px; 
+     max-width:300px; line-height:16px;
+}
+.btn-primary:hover .ttip{
+    z-index:10;
+    transition-delay: 1s;
+    visibility: visible;
+    display: block; 
+    position:absolute;
+    color:#111;
+/*    border:1px solid #DCA;
+*/  
+    line-height:20px;
+    background:#fffAF0;
+    border-radius: 4px;
+    -webkit-transition-delay:1s;     
+    -moz-transition-delay:1s; 
+    -ms-transition-delay:1s;     
+    -o-transition-delay:1s;     
+    transition-delay:1s;
+ }
+.btn-primary:hover .ttip:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    z-index:-1;
+    height: 0;
+    left: 140px;
+    top: -12px;
+    border: 12px solid;
+    box-shadow: 
+    inset 0px 1px 1px 1px rgba(0,0,0,0.5);
+    0px 5px 1px 5px rgba(0,0,0,0.9);
+    border-color: #fffAF0 transparent transparent #fffAF0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 .user-image:hover{
     box-shadow: 
     0px 0px 10px 1px rgba(0,0,0,.3),
@@ -247,6 +296,7 @@ body{
     }
 
 .filedrag {
+
 	font-weight: bold;
 	text-align: center;
 	padding: 2em 1em;
@@ -264,35 +314,52 @@ body{
 }
 
 .filedrag .ttip{
+      text-align: center; 
+font-size: 13pt;
+color: rgba(0, 0, 0, 0.6);
     display: none;
     visibility: hidden;
-    z-index:10; padding:14px 20px;
-    margin-top:-30px; margin-left:28px;
-    width:300px; line-height:16px;
-    -webkit-transition: all 2.30s ease-in-out;
-    -moz-transition: all 2.30s ease-in-out;
-    -ms-transition: all 2.30s ease-in-out;
-    -o-transition: all 2.30s ease-in-out;
+    font-weight: normal;
+    white-space: normal;
+     padding:14px 20px;
+     margin-top: 48px;
+     margin-left: -150px; 
+     max-width:300px; line-height:20px;
 }
 .filedrag:hover .ttip{
-    opacity: 100%;
+    z-index:10;
+    transition-delay: 1s;
     visibility: visible;
     display:inline; 
     position:absolute;
     color:#111;
-    border:1px solid #DCA;
-    background:#fffAF0;
+/*    border:1px solid #DCA;
+*/    background:#fffAF0;
     border-radius: 4px;
+    -webkit-transition-delay:1s;     
+    -moz-transition-delay:1s; 
+    -ms-transition-delay:1s;     
+    -o-transition-delay:1s;     
+    transition-delay:1s;
  }
 .filedrag:hover .ttip:after{
-    opacity: 100%;
-    visibility: visible;
-    display:inline; 
-    z-index:20;
-    position:absolute;
-    top:30px;
-    border:0;
-    left:-12px;
+    content: ' ';
+    position: absolute;
+    width: 0;
+    z-index:-1;
+    height: 0;
+    left: 100px;
+    top: -12px;
+    border: 12px solid;
+    box-shadow: 
+    inset 0px 1px 1px 1px rgba(0,0,0,0.5);
+    0px 5px 1px 5px rgba(0,0,0,0.9);
+    border-color: #fffAF0 transparent transparent #fffAF0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .filedrag:hover {

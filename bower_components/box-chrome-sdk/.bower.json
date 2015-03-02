@@ -9,6 +9,10 @@
     {
       "name": "Box Open Source",
       "email": "oss@box.com"
+    },
+    {
+      "name": "Eric Smith",
+      "email": "software.ecs@gmail.com"
     }
   ],
   "dependencies": {

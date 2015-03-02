@@ -14,7 +14,7 @@ module.exports = function(grunt) {
                     'angular-bootstrap': 'ui-bootstrap-tpls.js'
                 },
                 dest: 'build/<%= pkg.name %>.bower_components.js',
-                exclude: ['bootstrap-css-only']
+                exclude: ['bootstrap-css-only', 'font-awesome-bower']
             }
         },
         concat: {

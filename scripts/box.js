@@ -269,11 +269,37 @@
 
     box.directive('boxUserInfo', ['boxSdk', function(boxSdk) {
         return {
-            // link: function(scope, element) {
-            //     angular.element(element[0].querySelector('.image-preview')).empty().append(scope.image);
-            // },
-            template: 'HI'
-        };
+            template: '<div class="user-info"><img class="user-image"></img><span class="user-name"></span></div>',
+            link: function(scope,element) {
+                    angular.extend(scope, {
+                        upload: angular.noop,
+                        collaborate: angular.noop,
+                        share: angular.noop,
+                        settings: angular.noop,
+                        thumbnailSize: {
+                            min_width: 256,
+                            min_height: 256
+                        },
+                        actions: []   
+                    });
+                    boxSdk.getUserInfo()
+                        .subscribe(function(user) {
+                            scope.user = user;
+                            element[0].querySelector('span').innerHTML = scope.user.name;
+                            var xhr = new XMLHttpRequest();
+                            xhr.open('GET', scope.user.avatar_url, true);
+                            xhr.responseType = 'blob';
+                            xhr.onload = function() {
+                                var img = element[0].querySelector('img');
+                                img.src = window.URL.createObjectURL(this.response);
+                                // document.body.appendChild(img);
+                            };
+                            xhr.send();
+                        });
+                    
+                },
+                restrict: 'EA'
+            };
     }]);
 
     box.directive('boxImagePreview', function() {

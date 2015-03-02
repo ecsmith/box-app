@@ -1,12 +1,13 @@
 <div>
     <div class="item-view-header">
     <span box-breadcrumbs item="folder"></span>
+    <i class="fa fa-bars"></i>
     </div>
+    <span box-user-info></span>
     <span class="folder-view-header-numbers" ng-pluralize count="numFolders"
     when="{'0': '', 'one': '1 Folder, ', 'other': '{} Folders, '}"></span>
     <span class="folder-view-header-numbers" ng-pluralize count="numFiles"
     when="{'0': 'No Files', 'one': '1 File', 'other': '{} Files'}"></span>
-
     <div class="item-view-body">
         <div class="folder-view-item-wrapper" ng-repeat="item in items">
             <div box-item item="item" thumbnail-size="thumbnailSize"></div>
@@ -14,6 +15,4 @@
     </div>
     <div class="item-view-footer">
     </div>
-    <span dummy-directive></span>
-
 </div>

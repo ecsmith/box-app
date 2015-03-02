@@ -1,6 +1,10 @@
 @font-face {
+
     font-family: Contrail One;
     src: url(../fonts/ContrailOne-Regular.ttf);
+}
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .item-view-header {
     padding: 0.5em;
@@ -12,8 +16,39 @@
     font-family: 'Contrail One', cursive;
     margin-bottom: 2px;
 } 
+.user-image{
+    /*display: block;*/
+    margin: 2.4em 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,.07);
+    border-radius: 10em;
+    cursor: default;
+    max-width: 40px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    box-shadow: 
+    3px 3px 10px 1px rgba(0,0,0,.15),
+    inset 3px 3px 10px 1px rgba(0,0,0,.15); 
+}
+.fa-bars{
+    float: right;
+}
+.user-image:hover{
+    box-shadow: 
+    0px 0px 10px 1px rgba(0,0,0,.3),
+    inset 0px 0px 10px 1px rgba(0,0,0,.3); 
+}
+.user-name{
+    text-shadow: 0 0 0.5px rgba(255,255,255,0.1);
+    vertical-align: middle;
+    color: rgba(0,0,0,.9);
+    font-size: 20pt;
+}
 .folder-view-header-numbers{
     color: rgba(0,0,0,0.2);
+    font-size: 13pt;
 }     
 .directoryMarker {
     /*color: rgba(0,0,0,.1)*/
@@ -37,8 +72,10 @@
 }
 
 .box-item-thumbnail {
+    vertical-align: bottom;
     display: inline-block;
     padding: 0.2em;
+    margin-right: box0.2em;
 }
 
 .box-item-body {

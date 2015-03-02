@@ -21,7 +21,7 @@ body{
     margin: 2.4em 1em;
     border-bottom: 1px solid rgba(0,0,0,0.25);
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,.07);
-    border-radius: 10em;
+    border-radius: 50%;
     cursor: default;
     max-width: 40px;
     -webkit-transition: all 0.30s ease-in-out;
@@ -33,7 +33,28 @@ body{
     inset 3px 3px 10px 1px rgba(0,0,0,.15); 
 }
 .fa-bars{
+    cursor: pointer;
     float: right;
+}
+.fa-folder-open{
+    margin-right: 0.5em;
+}
+.fa-share-square-o{
+    text-align: center;
+    cursor: pointer;
+    padding: .6em .6em;
+    margin: 1.25em 0.5em 1em 0;
+    color: rgba(0,0,0,0.4);
+    border: 1px solid rgba(0,0,0,0.075);
+    position: relative;
+    border-radius: 50%; 
+    display: inline-block;
+    float: right;
+    font-size: 20pt;
+        -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
 .user-image:hover{
     box-shadow: 
@@ -48,7 +69,7 @@ body{
 }
 .folder-view-header-numbers{
     color: rgba(0,0,0,0.2);
-    font-size: 13pt;
+    /*font-size: 13pt;*/
 }     
 .directoryMarker {
     /*color: rgba(0,0,0,.1)*/
@@ -75,10 +96,11 @@ body{
     vertical-align: bottom;
     display: inline-block;
     padding: 0.2em;
-    margin-right: box0.2em;
+    margin-right: 0.3em;
 }
 
 .box-item-body {
+    line-height: 16px;
     display: inline-block;
     cursor: pointer;
 }
@@ -141,8 +163,8 @@ body{
     text-align: left;
 }
 .box-file-thumbnail {
-/*    width: 100%;
-*/    margin: 1em auto;
+    /*width: 100%;*/
+    margin: 1em auto;
     text-align: center;
 }
 
@@ -153,7 +175,7 @@ body{
 	margin: 2em auto;
 	color: rgba(0,0,0,0.4);
 	border: 2px dashed rgba(0,0,0,0.075);
-	border-radius: 10em;
+	border-radius: 50%;
 	cursor: default;
     max-width: 100px;
     -webkit-transition: all 0.30s ease-in-out;
@@ -172,6 +194,14 @@ body{
     box-shadow: 
     0px 0px 25px 1px rgba(0,0,0,.05),
     inset 0px 0px 25px 1px rgba(0,0,0,.05); 
-/*	box-shadow: inset 0 3px 4px #888;
 }
-*/
+.filedrag .hover {
+    background: url(../img/arrow.png);
+    background-size: cover; 
+    border: 2px dashed rgba(0,0,0,0.2);
+    color: rgba(0,0,0,0.6);
+    border-color: rgba(0,0,0,0.4);
+    box-shadow: 
+    0px 0px 25px 1px rgba(0,0,0,.05),
+    inset 0px 0px 25px 1px rgba(0,0,0,.05); 
+}

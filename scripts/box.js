@@ -95,7 +95,7 @@
             directive.compile = function() {
                 return function(scope, element) {
                     link.apply(this, arguments);
-                    var drop = angular.element('<div box-file-drop drop-target-title="Drag Files to Upload" process-file-data="uploadFileTo"></div>');
+                    var drop = angular.element('<div box-file-drop drop-target-title="Drag Files to Stage" process-file-data="uploadFileTo"></div>');
                     $compile(drop)(scope);
                     angular.element(element[0].querySelector('.item-view-header')).after(drop);
                     var isolateScope = element.isolateScope();

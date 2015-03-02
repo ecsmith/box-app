@@ -1,4 +1,6 @@
-Box Secure Transfer for Chrome App
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/img/box_cyan_128.png "")
+
+Box Secure Transfer: A Chrome App
 ==================
 
 This is my submission for the ASE Exercise. My solution involved writing an extension of a sample chrome app written by box employees for exercising the Box Javascript SDK. The link to the sample chrome app–written by [Jeff Meadows] (https://github.com/Jeff-Meadows) can be found at the link below:  https://github.com/box/Chrome-App-SDK/tree/master/demo/box_app
@@ -20,6 +22,9 @@ Download the "box-app" folder from Box or clone this repository
 Make sure you have the [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html) installed.
 
 Type ```chrome://extensions``` into the omnibar at the top of the screen. This will navigate you to the Chrome Extensions screen. You may already have extensions installed here.
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.25.12%20PM.png "Logo Title Text 1")
+
 
 The example showcases the following SDK features:
 * File upload and download

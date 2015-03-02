@@ -89,15 +89,13 @@ body{
 .fa-folder-open{
     margin-right: 0.5em;
 }
-.fa-share-square-o{
+.btn-group{
     text-align: center;
     cursor: pointer;
     padding: .6em .6em;
     margin: 1.25em 0.5em 1.25em 0;
-    color: rgba(0,0,0,0.3);
-    border-left: 1px solid rgba(0,0,0,0.075);
+    color: rgba(0,0,0,0.75);
     position: relative;
-    border-radius: 50%; 
     display: inline-block;
     float: right;
     font-size: 18pt;
@@ -106,12 +104,19 @@ body{
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
 }
-.fa-share-square-o:hover{
-    border-left: 1px solid rgba(0,0,0,0.095);
+.btn-primary:hover{
+    background-color: transparent;
     color: rgba(0,0,0,0.4);
+    border-color: rgba(0, 0, 0,0.075);
     box-shadow: 
     3px 3px 10px 1px rgba(0,0,0,.015),
     inset 3px 3px 10px 1px rgba(0,0,0,.015);
+}
+.btn-primary{
+    font-size: 13pt;
+    color: rgba(0, 0, 0,0.6);
+    background-color: transparent;
+    border-color: rgba(0, 0, 0,0.075);
 }
 .user-image:hover{
     box-shadow: 
@@ -256,6 +261,38 @@ body{
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
 
+}
+
+.filedrag .ttip{
+    display: none;
+    visibility: hidden;
+    z-index:10; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:300px; line-height:16px;
+    -webkit-transition: all 2.30s ease-in-out;
+    -moz-transition: all 2.30s ease-in-out;
+    -ms-transition: all 2.30s ease-in-out;
+    -o-transition: all 2.30s ease-in-out;
+}
+.filedrag:hover .ttip{
+    opacity: 100%;
+    visibility: visible;
+    display:inline; 
+    position:absolute;
+    color:#111;
+    border:1px solid #DCA;
+    background:#fffAF0;
+    border-radius: 4px;
+ }
+.filedrag:hover .ttip:after{
+    opacity: 100%;
+    visibility: visible;
+    display:inline; 
+    z-index:20;
+    position:absolute;
+    top:30px;
+    border:0;
+    left:-12px;
 }
 
 .filedrag:hover {

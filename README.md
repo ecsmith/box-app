@@ -13,6 +13,13 @@ At the beginning of this exercise I flip-flopped between wanting to create a des
 * Create a good user experience.
 * Use the box-SDK to fill my prototype with real data.
 
+##Configuration/Running:
+
+Download the "box-app" folder from Box or clone this repository
+
+Make sure you have the [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html) installed.
+
+Type ```chrome://extensions``` into the omnibar at the top of the screen. This will navigate you to the Chrome Extensions screen. You may already have extensions installed here.
 
 The example showcases the following SDK features:
 * File upload and download

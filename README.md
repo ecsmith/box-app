@@ -7,16 +7,15 @@ This is my submission for the ASE Exercise. My solution involved writing an exte
 
 ####I decided to work with a Chrome App for a few reasons:
 
-At the beginning of this exercise I flip-flopped between wanting to create a desktop application or a web application–What would be best for the user, what would be the most usable & what would accesible to the largest audience? As opposed to an app that runs natively on a particular operating system, you immediately make your app available to a much wider audience by writing a [Chrome App](https://developer.chrome.com/apps/about_apps). Chrome Apps are written using a javascript framework called [Angular.js](https://angularjs.org/) and therefore have the native look and feel of web application that many people feel comfortable using.
-
+At the beginning of this exercise I flip-flopped between wanting to create a desktop application or a web application–What would be best for the user, what would be the most usable & what would accesible to the largest audience? As opposed to an app that runs natively on a particular operating system, you immediately make your app available to a much wider audience by writing a [Chrome App](https://developer.chrome.com/apps/about_apps). Chrome Apps are written using a javascript framework called [Angular.js](https://angularjs.org/) and can therefore have the native look and feel of web application that many people feel comfortable using. In terms of our propsed user–It seems as though the security of these documents is really important to her. Besides security on the back-end I think that its important for an application to look and feel secure. 
 
 ####My goals for the exercise included:
 
-* Create a high fidelity prototype of a real application.
+* Create a working application.
 * Create a good user experience.
-* Use the box-SDK to fill my prototype with real data.
+* Use the box-SDK to fill my application with real data.
 
-In the end, I didn't get up to a working application. I would label my current solution as a High-Fidelity Prototype.
+In the end, I didn't get up to a completely-working application. I would label my current solution as a High-Fidelity Prototype.
 
 ##Configuration/Running:
 
@@ -47,6 +46,7 @@ Type in your email and password. If you are having trouble authenticating [try c
 For additional help with configuration and getting it running see:
 
 [Chrome Developer Guide](https://developer.chrome.com/extensions/getstarted#unpacked)
+
 [Jeff Meadow's ReadMe.md](https://github.com/box/Chrome-App-SDK/blob/master/demo/box_app/README.md)
 
 ##A Brief Overview of My Chrome App:
@@ -79,17 +79,22 @@ For additional help with configuration and getting it running see:
 ##Highlights of My Prototype:
 
 Main View:
+
 ![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.30.36%20PM.png)
 
 User Information UI using SDK:
+
 ![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.36%20PM.png)
 
 Responsive Menu Bar:
 
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.09%20PM.png)
 
 File Location Bar:
+
 ![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.28%20PM.png)
 
 Tooltips:
+
 ![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.51%20PM.png)
 

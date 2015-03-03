@@ -38,12 +38,18 @@ Check the "Enabled" box to the right to enable to Chrome App.
 
 Click the "Launch" button to launch the chrome app. 
 
+After launching the application the below screen should appear prompting for your box login.
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.24.47%20PM.png)
+
+Type in your email and password. If you are having trouble authenticating [try changing the client-id and client-secret](https://github.com/box/Chrome-App-SDK/blob/master/demo/box_app/README.md)
+
 For additional help with configuration and getting it running see:
 
 [Chrome Developer Guide](https://developer.chrome.com/extensions/getstarted#unpacked)
 [Jeff Meadow's ReadMe.md](https://github.com/box/Chrome-App-SDK/blob/master/demo/box_app/README.md)
 
-##A Quick Walkthrough of My Chrome App:
+##A Brief Overview of My Chrome App:
 
 ####The sample application included many features built in including:
 * File upload and download.
@@ -62,7 +68,7 @@ For additional help with configuration and getting it running see:
 
 ####What I did't finish:
 * Doesn't actually function. Currently a High-Fidelity Prototype.
-* Add more features including past file transfers.
+* Add more features including: A User's history of file transfers.
 
 ####What I work on given more time:
 * Use the SDK to actually securely transfer files.
@@ -70,10 +76,20 @@ For additional help with configuration and getting it running see:
 * Integrating File thumbnails with Font-Awesome.
 * Reorganize Angular directives and add Javascript comments.
 
+##Highlights of My Prototype:
 
-Using the extension
--------------------
+Main View:
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.30.36%20PM.png)
+
+User Information UI using SDK:
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.36%20PM.png)
+
+Responsive Menu Bar:
 
 
-```javascript
-```
+File Location Bar:
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.28%20PM.png)
+
+Tooltips:
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.51%20PM.png)
+

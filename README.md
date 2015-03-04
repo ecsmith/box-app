@@ -9,6 +9,8 @@ This is my submission for the ASE Exercise. My solution involved writing an exte
 
 At the beginning of this exercise I flip-flopped between wanting to create a desktop application and a web application. What would be best for the user? What would be the most usable? What would accesible to the largest audience? As opposed to an app that runs natively on a particular operating system, you immediately make your app available to a much wider audience by writing a [Chrome App](https://developer.chrome.com/apps/about_apps). Chrome Apps are written using a javascript framework called [Angular.js](https://angularjs.org/) and can have the same native look and feel of a web application which a large portion of users are comfortable using. In terms of our propsed user–It seems as though the security of these documents is really important to her. Besides security on the back-end I think that its important for an application to look and feel secure. 
 
+In production the app would be available for download in the [Chrome App Store](https://chrome.google.com/webstore/category/apps) making it pretty accesible to anyone using the Google Chrome browser. 
+
 ####My goals for the exercise included:
 
 * Create a working application.

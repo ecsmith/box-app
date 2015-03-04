@@ -76,6 +76,27 @@ For additional help with configuration and getting it running see:
 * Integrating File thumbnails with Font-Awesome.
 * Reorganize Angular directives and add Javascript comments.
 
+In terms of completing the assignment. Upon creating a staged folder I would use this function in the SDK to create a link to the staged folder:
+ ```javascript
+/**
+             * Get a link that can be safely shared with others. See the [http://blog.box.com/2012/04/share-your-stuff-and-stay-in-control-using-box-shared-links/](shared link blog post).
+             * @param {String} access Controls who may access the shared link. Can be one of open, company, collaborators, or null (default).
+             * @param {Timestamp} unshareDateTime When the shared link will automatically expire
+             * @param {Object} permissions Controls whether users of the shared link can preview or download the item
+             * @returns {Observable} An observable containing the shared link.
+             */
+            getSharedLink: function(access, unshareDateTime, permissions) {
+                return this.updateInfo({
+                    'shared_link': {
+                        access: access,
+                        /*eslint-disable camelcase*/
+                        unshared_at: unshareDateTime,
+                        /*eslint-enable camelcase*/
+                        permissions: permissions
+                    }
+                });
+            },
+```
 ##Highlights of My Prototype:
 
 Main View:

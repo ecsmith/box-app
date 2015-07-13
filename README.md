@@ -3,9 +3,32 @@
 Box Secure Transfer: A Chrome App
 ==================
 
-This Chrome Extension is designed two box users to securely transfer files. This was an exercise in using the Box API and in crafting a UX that makes the users feel secure. 
+This Chrome Extension is designed two box users to securely transfer files. This was an exercise in using the Box API and in crafting a UX that allows the users feel secure. 
 
 This is my submission for the ASE Exercise. My solution involved writing an extension of a sample chrome app written by box employees for exercising the Box Javascript SDK. The link to the sample chrome app–written by [Jeff Meadows] (https://github.com/Jeff-Meadows) can be found at the link below:  https://github.com/box/Chrome-App-SDK/tree/master/demo/box_app
+
+##Highlights of My Prototype:
+
+Main View:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.30.36%20PM.png)
+
+User Information UI using SDK:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.36%20PM.png)
+
+Responsive Menu Bar:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.09%20PM.png)
+
+File Location Bar:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.28%20PM.png)
+
+Tooltips:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.51%20PM.png)
+
 
 ####I decided to work with a Chrome App for a few reasons:
 
@@ -101,25 +124,3 @@ In terms of completing the assignment. Upon creating a staged folder I would use
                 });
             },
 ```
-##Highlights of My Prototype:
-
-Main View:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.30.36%20PM.png)
-
-User Information UI using SDK:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.36%20PM.png)
-
-Responsive Menu Bar:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.09%20PM.png)
-
-File Location Bar:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.28%20PM.png)
-
-Tooltips:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.51%20PM.png)
-

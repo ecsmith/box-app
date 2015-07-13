@@ -7,6 +7,29 @@ This Chrome Extension is designed two box users to securely transfer files. This
 
 This is my submission for the ASE Exercise. My solution involved writing an extension of a sample chrome app written by box employees for exercising the Box Javascript SDK. The link to the sample chrome app–written by [Jeff Meadows] (https://github.com/Jeff-Meadows) can be found at the link below:  https://github.com/box/Chrome-App-SDK/tree/master/demo/box_app
 
+##Highlights of My Prototype:
+
+Main View:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.30.36%20PM.png)
+
+User Information UI using SDK:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.36%20PM.png)
+
+Responsive Menu Bar:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.09%20PM.png)
+
+File Location Bar:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.28%20PM.png)
+
+Tooltips:
+
+![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.51%20PM.png)
+
+
 ####I decided to work with a Chrome App for a few reasons:
 
 At the beginning of this exercise I flip-flopped between wanting to create a desktop application and a web application. What would be best for the user? What would be the most usable? What would accesible to the largest audience? As opposed to an app that runs natively on a particular operating system, you immediately make your app available to a much wider audience by writing a [Chrome App](https://developer.chrome.com/apps/about_apps). Chrome Apps are written using a javascript framework called [Angular.js](https://angularjs.org/) and can have the same native look and feel of a web application which a large portion of users are comfortable using. In terms of our propsed user–It seems as though the security of these documents is really important to her. Besides security on the back-end I think that its important for an application to look and feel secure. 
@@ -101,25 +124,3 @@ In terms of completing the assignment. Upon creating a staged folder I would use
                 });
             },
 ```
-##Highlights of My Prototype:
-
-Main View:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%202.30.36%20PM.png)
-
-User Information UI using SDK:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.36%20PM.png)
-
-Responsive Menu Bar:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.57.09%20PM.png)
-
-File Location Bar:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.28%20PM.png)
-
-Tooltips:
-
-![alt text](https://raw.githubusercontent.com/ecsmith/box-app/gh-pages/screenshots/Screen%20Shot%202015-03-02%20at%203.56.51%20PM.png)
-

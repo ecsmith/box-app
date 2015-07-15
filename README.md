@@ -7,7 +7,7 @@ This Chrome Extension is designed two box users to securely transfer files. This
 
 This is my submission for the ASE Exercise. My solution involved writing an extension of a sample chrome app written by box employees for exercising the Box Javascript SDK. The link to the sample chrome app–written by [Jeff Meadows] (https://github.com/Jeff-Meadows) can be found at the link below:  https://github.com/box/Chrome-App-SDK/tree/master/demo/box_app
 
-##Highlights of My Prototype:
+##Highlights:
 
 Main View:
 
